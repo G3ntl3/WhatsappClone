@@ -1,0 +1,427 @@
+body {
+  background-color: rgb(252, 245, 235);
+  /* position: relative; */
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  /* height: 8800px; */
+  font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+  width: auto;
+  /* height: 50px; */
+  font-size: 18px;
+  font-weight: 100;
+  height: 50px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(252, 239, 235, 0.795);
+  padding: 15px 40px;
+  /* border: 2px solid red; */
+}
+
+.details div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.details div span:hover {
+  /* text-decoration: underline green 2px; */
+  /* transition: 2s; */
+  /* text-decoration: dashed; */
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(37, 211, 102);
+}
+
+button {
+  cursor: pointer;
+  /* font-size:10px; */
+  padding: 18px 40px;
+  border-radius: 50px;
+  border: 1px solid black;
+  font-weight: 100;
+  font-size: 15px;
+  background-color: rgb(255, 255, 255);
+  /* margin-left: 2px; */
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+button:nth-of-type(2) {
+  background-color: rgb(37, 211, 102);
+}
+button:nth-of-type(2):hover {
+  background-color: rgb(0, 0, 0);
+}
+
+i {
+  margin-left: 10px;
+  font-weight: 100;
+}
+.container {
+  padding: 50px 0px;
+  margin: 15px 30px;
+  border-radius: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* border: 2px solid rgb(157, 255, 0); */
+  background: linear-gradient(90deg, #606667, #a0a5a4),
+    url("./mother-removebg-preview.png");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.chatimg {
+  max-width: 100%;
+  height: auto;
+}
+
+.message {
+  width: 50%;
+  /* border: 2px solid black; */
+  color: white;
+  padding: 120px 80px;
+  /* text-align: center; */
+}
+.message span:first-child {
+  font-size: 70px;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.message span:nth-of-type(2) {
+  font-size: 20px;
+}
+
+.chat {
+  width: 50%;
+  /* border: 2px solid rgb(57, 182, 67); */
+  text-align: center;
+}
+
+#heart {
+  position: relative;
+  bottom: 30px;
+  /* top: 0px; */
+}
+.chatimg {
+  width: 70%;
+  z-index: 1;
+}
+#coffee {
+  position: relative;
+  bottom: 50px;
+  width: 70%;
+}
+#voicenote {
+  width: 70%;
+  margin-top: -50px;
+}
+#twowomen {
+  width: 70%;
+}
+#eyes {
+  width: 70%;
+  position: relative;
+  bottom: 30px;
+}
+#cant_wait {
+  width: 70%;
+  margin-top: -40px;
+}
+.btn-cont {
+  margin-top: 50px;
+}
+.btn-cont button:first-child {
+  margin-top: 20px;
+  background-color: rgb(37, 211, 102);
+}
+.btn-cont button:nth-of-type(2) {
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+}
+.btn-cont button:hover {
+  margin-top: 20px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.endtext {
+  text-align: end;
+  width: 100%;
+  margin-left: -30px;
+  font-size: 13px;
+  color: slategray;
+  /* margin-top: -10px; */
+}
+.chatimg1 {
+  /* justify-content: center; */
+  padding: 10px 30px;
+}
+#chatimg1 {
+  /* border: .2px solid green; */
+  width: 100%;
+  padding: 10px 0px;
+  /* justify-content: center; */
+}
+.centeredtext {
+  /* width: 80%; */
+  text-align: center;
+  font-size: 300%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.family-call {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-left: -50px;
+}
+.family-call .nevermiss p:nth-child(1) {
+  font-size: 400%;
+  line-height: 100%;
+}
+.nevermiss {
+  width: 50%;
+  margin-top: 50px;
+}
+.nevermiss p:nth-of-type(2) {
+  /* width: 50%; */
+  font-size: larger;
+  color: rgba(0, 0, 0, 0.719);
+  margin-top: -50px;
+}
+
+.learnbtn a {
+  text-decoration: none;
+  border-bottom: 3px solid rgb(37, 211, 102);
+  padding-bottom: 8px;
+  display: block;
+  font-size: medium;
+  color: black;
+}
+.learnbtn {
+  display: flex;
+  align-items: center;
+}
+.learnbtn:hover,
+a:hover {
+  color: rgb(37, 211, 102);
+}
+
+.famuilyimg {
+  width: 50%;
+  /* margin-top: -30px; */
+}
+.darkbg {
+  display: flex;
+  background-color: rgb(17, 27, 33);
+  color: white;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 130px;
+  border: 2px solid red;
+}
+.darkbg img {
+  width: 50%;
+}
+.darkbg .speak {
+  width: 50%;
+  /* padding: 0px 0px; */
+  /* margin-top: -100px; */
+}
+.darkbg .speak span:first-of-type {
+  font-size: 400%;
+}
+.darkbg .speak span:nth-of-type(2) {
+  font-size: 300%;
+  color: rgb(37, 211, 102);
+}
+.speak p {
+  font-size: 100%;
+  font-weight: 600;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.877);
+}
+.speak .learnbtn a {
+  color: white;
+  font-size: medium;
+}
+
+.flexkit {
+  width: 100%;
+  /* margin: auto; */
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: ; */
+  gap: 100px;
+}
+.KIT {
+  width: 40%;
+}
+.bfgflex {
+  display: flex;
+  width: 40%;
+}
+.bfgroup {
+  position: relative;
+  top: 70px;
+  right: 350px;
+}
+
+.KIT p:first-of-type {
+  font-size: 350%;
+}
+.KIT p:nth-child(2) {
+  font-size: larger;
+  color: rgba(0, 0, 0, 0.719);
+}
+
+
+
+
+
+
+
+
+
+
+
+.woman {
+  display: flex;
+  align-items: center;
+  padding: 30px 200px;
+justify-content: center;
+margin-top: 70px;
+  gap:100px;
+}
+.womanpebble {
+  width: 50%;
+}
+#pebbble {
+  position: relative;
+  bottom: 70px;
+  right: 350px;
+  width: 300px;
+}
+.saywhat {
+  width: 50%;
+}
+.saywhat p:first-of-type {
+  font-size: 400%;
+}
+.saywhat p:nth-child(2) {
+  font-size: larger;
+  margin-top: -40px;
+  color: rgba(0, 0, 0, 0.719);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  margin-top: 300px;
+  background-color: rgb(17, 27, 33);
+  color: white;
+}
+.flexalldivs {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  padding: 75px 0px;
+}
+.flexediv {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+  text-align: start;
+  /* width: 20%; */
+}
+.flexediv a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+}
+.flexediv a:hover {
+  text-decoration: underline;
+}
+#whitelogo {
+  /* width: 60%; */
+}
+.footerbtn {
+  /* width: 70%; */
+  cursor: pointer;
+  background-color: rgb(37, 211, 102);
+  padding: 18px 10px !important;
+  border-radius: 50px;
+  border: 1px solid black;
+  font-weight: 100;
+  font-size: 15px;
+  /* background-color: rgb(255, 255, 255); */
+}
