@@ -2,7 +2,7 @@ body {
   background-color: rgb(252, 245, 235);
   margin: 0;
   box-sizing: border-box;
-  width: 100%;
+  width: 100%;   
   font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
@@ -66,7 +66,7 @@ i {
   display: flex;
   justify-content: center;
   background: linear-gradient(90deg, #606667, #a0a5a4),
-    url("./mother-removebg-preview.png");
+    url('/whatsapp/womanbg.png');
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-position: center;
@@ -159,16 +159,22 @@ i {
   padding: 10px 0px;
   
 }
+.mobilechatimghidden{
+  display: none;
+}
 .centeredtext {
+  width: 65%;
   text-align: center;
-  font-size: 300%;
+  font-size: 270%;
+  margin: auto;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .family-call {
   display: flex;
-  width: 100%;
+  width: 90%;
   justify-content: center;
-  margin-left: -50px;
+  margin: auto;
+  padding-left: 80px;
 }
 .family-call .nevermiss p:nth-child(1) {
   font-size: 400%;
@@ -201,7 +207,7 @@ a:hover {
   color: rgb(37, 211, 102);
 }
 
-.famuilyimg {
+.familyimg {
   width: 50%;
   
 }
@@ -260,6 +266,7 @@ a:hover {
   position: relative;
   top: 70px;
   right: 350px;
+  height: 50%;
 }
 
 .KIT p:first-of-type {
@@ -278,9 +285,7 @@ justify-content: center;
 margin-top: 70px;
   gap:100px;
 }
-.womanpebble {
-  width: 50%;
-}
+
 #pebbble {
   position: relative;
   bottom: 70px;
@@ -331,7 +336,7 @@ footer {
   text-decoration: underline;
 }
 #whitelogo {
- /
+ 
 }
 .footerbtn {
   cursor: pointer;
@@ -342,3 +347,249 @@ footer {
   font-weight: 100;
   font-size: 15px;
  }
+@media (max-width:480px) {
+  body{
+border: 2px solid red;
+width: 100%;
+
+  }
+  .navbar{
+    display: none;
+  }
+  .second-line{
+margin: 0px;
+  }
+  .third-line ,.fourth-line, .fifth-line{
+display: none;
+border: 2px solid red;
+  }
+  .message{
+    width: 100%;
+    padding: 0;
+  }
+  .chat {
+  width: 100%;
+  text-align: center;
+}
+.container{
+  display:flex;
+  flex-direction: column-reverse;
+  background-size: cover;
+  width: 100%;
+  border: 2px solid red;
+  margin: 0;
+  /* background-size: 100%; */
+}
+
+.bfgflex {
+  display: none;
+  width: 40%;
+}
+
+.woman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 30px 200px; */
+justify-content: center;
+margin-top: 70px;
+  /* gap:1 00px; */
+}
+.chatimg1 {
+   /* display: none; */
+  padding: 10px 30px;
+}
+#chatimg1 {
+   display: none;
+  /* width: 100%; */
+  /* padding: 10px 0px; */
+  
+}
+.mobilechatimghidden{
+  display: flex ;
+  width: 100%;
+  padding: 0;
+  margin: auto;
+  margin: 50px 0px;
+}
+.centeredtext{
+  font-size: 160% !important;
+  width: 100%;
+  margin: auto;
+  padding: 0px 0px;
+  font-size: 200%;
+  text-align: center;
+
+
+
+}
+.family-call {
+  display: flex;
+flex-direction: column;
+  margin-left: 0px;
+  padding-left:  0px;
+  margin: auto;
+
+
+}
+.familyimg{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.familyimg img  {
+  width: 60%;
+  margin: auto;
+  
+}
+.family-call .nevermiss p:nth-child(1) {
+  font-size: 200%;
+  line-height: 100%;
+}
+.nevermiss{
+  width: 100%;
+}
+.nevermiss br{
+  display: none;
+}
+.nevermiss p:nth-of-type(2) {
+  font-size: large;
+  color: rgba(0, 0, 0, 0.719);
+  margin-top: 0px;
+}
+
+
+    /* <!-- dark background section --> */
+
+.darkbg {
+  display: flex;
+  flex-direction: column-reverse;
+  /* gap: 80px; */
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+}
+.darkbg img {
+  width: 80%;
+  padding: 20px ;
+}
+.darkbg .speak {
+  width: 100%;
+ 
+}
+.darkbg .speak span:first-of-type {
+  font-size: 200%;
+}
+
+.darkbg .speak span:nth-of-type(2) {
+  font-size: 200%;
+  color: rgb(37, 211, 102);
+}
+
+
+
+.speak p {
+  font-size: 100%;
+  font-weight: 600;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.877);
+}.speak p br {
+  display: none ;
+
+}
+
+/* 
+ */
+
+.flexkit {
+  width: 100%;
+ 
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  /* gap: 100px; */
+}
+.KIT {
+  width: 100%;
+}
+.KIT p:first-of-type  {
+  /* display: none; */
+  font-size: 200%;
+  padding: 0px 30px ;
+}
+.KIT p:nth-child(2) {
+  font-size: larger;
+  padding: 0px 30px ;
+
+  color: rgba(0, 0, 0, 0.719);
+}
+.KIT p:first-of-type br {
+  display: none;
+
+}
+.learnbtn {
+/* padding: 0px 30px; */
+display: flex;
+flex-direction: row;
+}
+
+.bfgflex {
+  display: flex;
+  /* object-fit: contain; */
+  width: 80% !important;
+}
+.bfgroup {
+  position: relative;
+  top: 70px;
+  right: 350px;
+}
+.bfgbg{
+  width: 100%;
+}
+.bfgroup{
+  width: 120%;
+position: relative;
+  top: 70px;
+  left: -350px;
+
+}
+
+.woman {
+  display: flex;
+  flex-direction: column-reverse;
+  /* align-items: center; */
+  padding: 0px 30px;
+justify-content: center;
+margin-top: 70px;
+  gap:100px;
+}
+
+.saywhat {
+  width: 100%;
+}
+
+.saywhat p:first-of-type {
+  font-size: 200%;
+}
+
+.saywhat p:nth-child(2) {
+  font-size: larger;
+  margin-top:0px;
+  color: rgba(0, 0, 0, 0.719);
+}
+
+
+
+*{
+  border: none !important;
+  /* border: 3px solid red; */
+}
+footer{
+  display: none;
+}
+}
